@@ -1,0 +1,19 @@
+h1 {
+    width:100%
+}
+body { 
+    display:flex;
+    flex-wrap:wrap;
+}
+img {width:100%}
+@media screen and (max-width: 800px) {
+    .flex div {width:100%}
+}
+@media screen and (min-width: 800px) {
+    .flex div {width:100%;
+        display:flex;}
+    img {width:50%;
+        align-self:flex-start;}
+    .sub p {width:50%;
+        align-self:flex-end;}
+}
